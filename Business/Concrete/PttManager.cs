@@ -12,7 +12,7 @@ namespace Business.Concrete
     {
         private IApplicantService _applicantService;
 
-        public PttManager(IApplicantService applicantService) //Constructor new yapıldığında çalışır
+        public PttManager(IApplicantService applicantService)
         {
             _applicantService = applicantService;
         }

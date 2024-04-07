@@ -10,7 +10,6 @@ namespace Business.Concrete
 {
     public class ForeignerManager : IApplicantService
     {
-        //Sonarqube
         public void ApplyForMask(Person person)
         {
             throw new NotImplementedException();
